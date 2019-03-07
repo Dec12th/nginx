@@ -1,3 +1,3 @@
-./configure --with-pcre=./modules/pcre-8.43 --with-debug --prefix=build
+./configure --with-pcre=./modules/pcre-8.43 --with-debug --prefix=/apps/nginx
 make
 make install
