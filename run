@@ -1,0 +1,3 @@
+./configure --with-pcre=./modules/pcre-8.43 --with-debug --prefix=build
+make
+make install
