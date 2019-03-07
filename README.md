@@ -4,7 +4,7 @@
 
 ```
 sudo mkdir /apps
-chmod 777 /apps
+sudo chmod 777 /apps
 ```
 
 ## 2.下载代码到用户目录
@@ -19,7 +19,7 @@ git clone git@github.com:lightningMan/nginx.git
 
 ```
 cd ~/github/nginx
-run
+./run
 ```
 
 ## 4.验证编译是否成功
@@ -28,7 +28,7 @@ run
 
 ```
 cd /apps/nginx/sbin
-nginx
+./nginx
 ```
 然后，打开你的浏览器，输入 http://127.0.0.1 便可看到效果
 
@@ -42,22 +42,5 @@ nginx
 ## 集成到 clion
 
 我们的目标当然是直接修改源码，并且最终按一下 Debug，就自动完成编译，运行，效果如下
-
-
-
 ![集成 clion](http://g.recordit.co/buhZFdFnAE.gif)
-
-
-
-
-
 那么到底如何实现？且听下回分解。
-
-
-
-
-
-
-
-
-
